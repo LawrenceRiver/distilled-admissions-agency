@@ -1,0 +1,17 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+.env
+.env.*
+*.token
+*.secret
+cookies.json
+storageState.json
+
+admissions-db/
+.firecrawl/
+xhs-crawl/
+xhs-output/
+records.json

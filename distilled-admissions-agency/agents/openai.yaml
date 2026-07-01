@@ -1,0 +1,4 @@
+interface:
+  display_name: "蒸馏留学机构"
+  short_description: "Distilled admissions research"
+  default_prompt: "Use $distilled-admissions-agency to guide intake, archive official pages as verified PDFs, build route cards, and produce an evidence-backed reach/main/safety matrix."
