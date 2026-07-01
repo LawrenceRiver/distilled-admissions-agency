@@ -4,6 +4,22 @@
 
 Distilled Admissions Agency is not a one-shot school recommender. It is a transparent admissions research pipeline: guided applicant intake, official school webpage archiving, requirement auditing, public case mining, school route hypotheses, and evidence-backed reach/main/safety planning.
 
+![Distilled Admissions Agency social preview](assets/social-preview.png)
+
+## Memorable Promises
+
+- **Archive first. Then recommend with evidence.**
+- **Official PDFs you can open, annotate, and verify.**
+- **Xiaohongshu public comment leads become sample-library signals, not gossip.**
+
+## Feature Cuts
+
+![PDF archive feature cut](assets/feature-pdf-archive.png)
+
+![Xiaohongshu comment leads feature cut](assets/feature-xhs-comments.png)
+
+![Sample library feature cut](assets/feature-sample-library.png)
+
 ## Who It Is For
 
 - Applicants preparing graduate school or study-abroad applications
@@ -23,12 +39,12 @@ Most admissions consulting value comes from structured intake, a large evidence 
 | Guided intake | Applicant passport, profile, hard/soft strength map |
 | Target scope | Regions, schools, fields, constraints, target school CSV |
 | Official cataloging | School catalogs, program lists, official source index |
-| Webpage PDF archive | Original PDF, color-enhanced PDF, HTML, DOM text, PDF text, validation JSON |
+| Official PDF audit | Original PDF, color-enhanced PDF, HTML, DOM text, PDF text, validation JSON, note-ready evidence files |
 | Requirement audit | Deadlines, GPA, language, GRE, prerequisites, portfolio, writing samples, curriculum signals |
-| Public case mining | GradCafe, Yocket, Reddit, Zhihu, Xiaohongshu, forums, blogs, agency pages |
+| Public sample library | GradCafe, Yocket, Reddit, Zhihu, Xiaohongshu public comments, forums, blogs, agency pages |
 | School route cards | Selection ideology, hard gates, soft-evidence tolerance, route risks |
 | Fit matrix | Reach/main/safety bands, GPA risk, soft compensation, evidence confidence, next actions |
-| Crawler/OCR routing | Firecrawl, Playwright, Xiaohongshu link parsing, MediaCrawler-style research, OCR |
+| Crawler routing | Firecrawl, Playwright, Xiaohongshu link parsing, MediaCrawler-style research |
 
 ## Official Webpage Archive
 
@@ -90,4 +106,3 @@ Use $distilled-admissions-agency to analyze GPA risk and soft-strength compensat
 ```text
 A Codex skill that distills study-abroad agency workflows into evidence-backed admissions research, official webpage PDF archiving, public case mining, and reach/main/safety planning.
 ```
-
