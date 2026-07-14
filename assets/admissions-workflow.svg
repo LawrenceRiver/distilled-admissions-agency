@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Distilled Admissions Agency workflow</title>
+  <desc id="desc">A five-step admissions research flow from applicant profile to evidence-backed reach, main, and safety planning.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7f8fc"/>
+      <stop offset="1" stop-color="#eef2ff"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#27324d" flood-opacity="0.12"/>
+    </filter>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto">
+      <path d="M0 0L12 6L0 12Z" fill="#64748b"/>
+    </marker>
+    <style>
+      .eyebrow { font: 700 18px -apple-system, BlinkMacSystemFont, "SF Pro Display", Arial, sans-serif; letter-spacing: 3px; fill: #52607a; }
+      .title { font: 800 50px -apple-system, BlinkMacSystemFont, "SF Pro Display", Arial, sans-serif; fill: #172033; }
+      .subtitle { font: 400 22px -apple-system, BlinkMacSystemFont, "SF Pro Text", Arial, sans-serif; fill: #52607a; }
+      .card-title { font: 800 22px -apple-system, BlinkMacSystemFont, "SF Pro Display", Arial, sans-serif; fill: #172033; }
+      .card-subtitle { font: 600 15px -apple-system, BlinkMacSystemFont, "SF Pro Text", Arial, sans-serif; fill: #5b6881; }
+      .card-body { font: 400 16px -apple-system, BlinkMacSystemFont, "SF Pro Text", Arial, sans-serif; fill: #34415b; }
+      .pill { font: 700 15px -apple-system, BlinkMacSystemFont, "SF Pro Text", Arial, sans-serif; fill: #31405c; }
+      .step { font: 800 18px -apple-system, BlinkMacSystemFont, "SF Pro Display", Arial, sans-serif; fill: white; }
+    </style>
+  </defs>
+
+  <rect width="1600" height="900" rx="36" fill="url(#bg)"/>
+  <circle cx="1430" cy="120" r="210" fill="#dfe6ff" opacity="0.55"/>
+  <circle cx="1400" cy="740" r="250" fill="#d9f4ee" opacity="0.55"/>
+
+  <text x="100" y="92" class="eyebrow">DISTILLED ADMISSIONS AGENCY</text>
+  <text x="100" y="155" class="title">From profile to an evidence-backed plan.</text>
+  <text x="100" y="198" class="subtitle">From applicant profile to a reach / main / safety decision map. Every step leaves a trace.</text>
+
+  <path d="M320 475H350M620 475H650M920 475H950M1220 475H1250" stroke="#64748b" stroke-width="5" stroke-linecap="round" marker-end="url(#arrow)"/>
+
+  <g filter="url(#shadow)">
+    <rect x="80" y="290" width="240" height="370" rx="26" fill="#ffffff"/>
+    <rect x="380" y="290" width="240" height="370" rx="26" fill="#ffffff"/>
+    <rect x="680" y="290" width="240" height="370" rx="26" fill="#ffffff"/>
+    <rect x="980" y="290" width="240" height="370" rx="26" fill="#ffffff"/>
+    <rect x="1280" y="290" width="240" height="370" rx="26" fill="#ffffff"/>
+  </g>
+
+  <g>
+    <circle cx="120" cy="330" r="24" fill="#4f46e5"/><text x="120" y="337" text-anchor="middle" class="step">01</text>
+    <text x="110" y="395" class="card-title">Applicant Passport</text>
+    <path d="M110 455H290" stroke="#e1e6f1" stroke-width="2"/>
+    <text x="110" y="495" class="card-body">GPA · goals</text>
+    <text x="110" y="525" class="card-body">experience · constraints</text>
+    <text x="110" y="585" class="card-body">Make the applicant visible</text>
+    <text x="110" y="611" class="card-body">beyond a single score.</text>
+  </g>
+
+  <g>
+    <circle cx="420" cy="330" r="24" fill="#0f766e"/><text x="420" y="337" text-anchor="middle" class="step">02</text>
+    <text x="410" y="395" class="card-title">Evidence Archive</text>
+    <path d="M410 455H590" stroke="#e1e6f1" stroke-width="2"/>
+    <text x="410" y="495" class="card-body">official pages · PDFs</text>
+    <text x="410" y="525" class="card-body">HTML · validation JSON</text>
+    <text x="410" y="585" class="card-body">Preserve the source</text>
+    <text x="410" y="611" class="card-body">before interpreting it.</text>
+  </g>
+
+  <g>
+    <circle cx="720" cy="330" r="24" fill="#d97706"/><text x="720" y="337" text-anchor="middle" class="step">03</text>
+    <text x="710" y="395" class="card-title">Program Audit</text>
+    <path d="M710 455H890" stroke="#e1e6f1" stroke-width="2"/>
+    <text x="710" y="495" class="card-body">deadlines · hard gates</text>
+    <text x="710" y="525" class="card-body">curriculum · signals</text>
+    <text x="710" y="585" class="card-body">Turn requirements into</text>
+    <text x="710" y="611" class="card-body">auditable evidence fields.</text>
+  </g>
+
+  <g>
+    <circle cx="1020" cy="330" r="24" fill="#db2777"/><text x="1020" y="337" text-anchor="middle" class="step">04</text>
+    <text x="1010" y="395" class="card-title">Route Cards</text>
+    <path d="M1010 455H1190" stroke="#e1e6f1" stroke-width="2"/>
+    <text x="1010" y="495" class="card-body">selection ideology</text>
+    <text x="1010" y="525" class="card-body">fit · risk · tolerance</text>
+    <text x="1010" y="585" class="card-body">Explain what a school</text>
+    <text x="1010" y="611" class="card-body">actually looks for.</text>
+  </g>
+
+  <g>
+    <circle cx="1320" cy="330" r="24" fill="#2563eb"/><text x="1320" y="337" text-anchor="middle" class="step">05</text>
+    <text x="1310" y="395" class="card-title">Fit Matrix</text>
+    <path d="M1310 455H1490" stroke="#e1e6f1" stroke-width="2"/>
+    <text x="1310" y="495" class="card-body">reach · main · safety</text>
+    <text x="1310" y="525" class="card-body">next actions · confidence</text>
+    <text x="1310" y="585" class="card-body">Turn evidence into</text>
+    <text x="1310" y="611" class="card-body">an actionable map.</text>
+  </g>
+
+  <rect x="100" y="735" width="1400" height="84" rx="24" fill="#172033"/>
+  <text x="140" y="771" class="subtitle" fill="#b7c4df">OUTPUTS</text>
+  <g>
+    <rect x="400" y="752" width="180" height="38" rx="19" fill="#eef2ff"/><text x="490" y="777" text-anchor="middle" class="pill">source logs</text>
+    <rect x="600" y="752" width="200" height="38" rx="19" fill="#e2f5f0"/><text x="700" y="777" text-anchor="middle" class="pill">verified PDFs</text>
+    <rect x="820" y="752" width="180" height="38" rx="19" fill="#fff0d9"/><text x="910" y="777" text-anchor="middle" class="pill">route cards</text>
+    <rect x="1020" y="752" width="220" height="38" rx="19" fill="#fce7f3"/><text x="1130" y="777" text-anchor="middle" class="pill">next actions</text>
+  </g>
+</svg>

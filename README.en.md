@@ -4,7 +4,7 @@
 
 Distilled Admissions Agency is not a one-shot school recommender. It is a transparent admissions research pipeline: guided applicant intake, official school webpage archiving, requirement auditing, public case mining, school route hypotheses, and evidence-backed reach/main/safety planning.
 
-![Distilled Admissions Agency social preview](assets/social-preview.png)
+![Distilled Admissions Agency workflow](assets/admissions-workflow.svg)
 
 ## Memorable Promises
 
@@ -12,13 +12,15 @@ Distilled Admissions Agency is not a one-shot school recommender. It is a transp
 - **Official PDFs you can open, annotate, and verify.**
 - **Xiaohongshu public comment leads become sample-library signals, not gossip.**
 
-## Feature Cuts
+## Workflow
 
-![PDF archive feature cut](assets/feature-pdf-archive.png)
+The skill follows one traceable path: build the applicant passport, archive
+official evidence, audit program requirements, describe each school's route,
+then produce a reach/main/safety matrix with next actions.
 
-![Xiaohongshu comment leads feature cut](assets/feature-xhs-comments.png)
-
-![Sample library feature cut](assets/feature-sample-library.png)
+The primary outputs are source logs, verified PDFs, route cards, and a decision
+map you can inspect and revise. The older feature illustrations remain in the
+repository as supporting material, but this workflow is the main product story.
 
 ## Who It Is For
 
@@ -106,3 +108,7 @@ Use $distilled-admissions-agency to analyze GPA risk and soft-strength compensat
 ```text
 A Codex skill that distills study-abroad agency workflows into evidence-backed admissions research, official webpage PDF archiving, public case mining, and reach/main/safety planning.
 ```
+
+## License
+
+The original source code and documentation are released under the [MIT License](LICENSE). Existing visual assets may have separate provenance and are not automatically covered by MIT; follow the rights and terms of their respective creators.

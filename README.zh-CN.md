@@ -4,7 +4,7 @@
 
 蒸馏留学机构不是一个简单的选校推荐器。它更像一个透明的申请研究实验室：先用问答建立申请者画像，再抓取学校官网、存档页面 PDF、整理项目要求、检索公开案例、分析学校路线，最后基于证据输出冲刺、主申、保底策略。
 
-![蒸馏留学机构主视觉](assets/social-preview.png)
+![蒸馏留学机构工作流程](assets/admissions-workflow.svg)
 
 ## 三句记住它
 
@@ -12,13 +12,11 @@
 - **官网 PDF 原封存证，可打开、可批注、可复核。**
 - **小红书评论区线索进入公开真实样本库，不把评论当最终事实。**
 
-## 功能切图
+## 工作流程
 
-![官网 PDF 原封存证](assets/feature-pdf-archive.png)
+这套 Skill 走一条可追踪的路径：建立申请画像、保存官网证据、审计项目要求、拆解学校路线，最后输出带下一步动作的冲主保矩阵。
 
-![小红书评论区线索](assets/feature-xhs-comments.png)
-
-![公开真实样本库](assets/feature-sample-library.png)
+主要产物是来源日志、可复核 PDF、学校路线卡和可以继续修改的决策地图。旧的功能插图仍保留在仓库中作为辅助素材，但这张流程图是项目的主叙事。
 
 ## 适合谁
 
@@ -117,3 +115,9 @@ python ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-github
 ```text
 A Codex skill that distills study-abroad agency workflows into evidence-backed admissions research, official webpage PDF archiving, public case mining, and reach/main/safety planning.
 ```
+
+## License / 许可证
+
+本项目原创的源代码和文档使用 [MIT License](LICENSE)。仓库中的既有视觉素材可能有独立来源，不会因为放在仓库里就自动获得 MIT 授权；使用时请遵守相应创作者的权利和条款。
+
+The original source code and documentation are released under the [MIT License](LICENSE). Existing visual assets may have separate provenance and are not automatically covered by MIT; follow the rights and terms of their respective creators.

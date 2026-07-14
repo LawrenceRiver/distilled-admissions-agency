@@ -2,7 +2,7 @@
 
 [中文说明](README.zh-CN.md) · [English](README.en.md) · [Promotion Kit](PROMOTION.md)
 
-![Distilled Admissions Agency social preview](assets/social-preview.png)
+![Distilled Admissions Agency workflow](assets/admissions-workflow.svg)
 
 **Distill the useful parts of a study-abroad agency into an evidence-backed Codex skill.**
 
@@ -21,13 +21,20 @@ Distilled Admissions Agency is a bilingual Codex skill for graduate admissions r
 - **Public comment leads become a sample library, not gossip.**  
   **小红书评论区线索进入公开样本库，不把评论当最终事实。**
 
-## Feature Cuts / 功能切图
+## Workflow / 工作流程
 
-![PDF archive feature cut](assets/feature-pdf-archive.png)
+The skill follows one traceable path: build the applicant passport, archive
+official evidence, audit program requirements, describe each school's route,
+then produce a reach/main/safety matrix with next actions.
 
-![Xiaohongshu comment leads feature cut](assets/feature-xhs-comments.png)
+这套 Skill 走一条可追踪的路径：建立申请画像、保存官网证据、审计项目要求、拆解学校路线，最后输出带下一步动作的冲主保矩阵。
 
-![Sample library feature cut](assets/feature-sample-library.png)
+The primary outputs are source logs, verified PDFs, route cards, and a decision
+map you can inspect and revise. The older feature illustrations remain in the
+repository as supporting material, but the workflow above is the main product
+story.
+
+主要产物是来源日志、可复核 PDF、学校路线卡和可以继续修改的决策地图。旧的功能插图仍保留在仓库中作为辅助素材，但上面的流程图是项目的主叙事。
 
 ## Why It Exists / 为什么做它
 
@@ -149,3 +156,9 @@ distilled-admissions-agency/
 - Full Chinese introduction: [README.zh-CN.md](README.zh-CN.md)
 - Full English introduction: [README.en.md](README.en.md)
 - GitHub description, topics, and launch copy: [PROMOTION.md](PROMOTION.md)
+
+## License / 许可证
+
+The original source code and documentation are released under the [MIT License](LICENSE). Existing visual assets may have separate provenance and are not automatically covered by MIT; follow the rights and terms of their respective creators.
+
+本项目原创的源代码和文档使用 [MIT License](LICENSE)。仓库中的既有视觉素材可能有独立来源，不会因为放在仓库里就自动获得 MIT 授权；使用时请遵守相应创作者的权利和条款。
